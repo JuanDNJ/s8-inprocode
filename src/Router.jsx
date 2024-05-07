@@ -5,10 +5,10 @@ import Header from "./components/Header";
 
 export default function Router() {
   return (
-    <section className="h-screen max-w-2xl m-auto text-stone-200 flex flex-col gap-4 ">
+    <section className="flexh-screen max-w-2xl h-screen m-auto text-stone-200 flex flex-col gap-4">
       <BrowserRouter>
         <Header />
-        <section className="flex flex-col gap-8">
+        <section className="flex flex-col gap-8 p-4">
           <Routes>
             <Route path="/" element={<App />} />
             <Route path="/about" element={<About />} />
