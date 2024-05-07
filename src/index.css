@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  display: grid;
+  background-color: #333;
+  color: snow;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+a {
+  border-bottom: 2px solid transparent;
+  transition: border-bottom, color, 300ms ease-in-out;
+  font-weight: 900;
+}
+a.active {
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+a:hover {
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+button {
+  @apply font-extrabold ring-2 ring-orange-400 py-1 px-4 rounded-md hover:ring-white hover:bg-orange-400 hover:text-stone-800;
+}
