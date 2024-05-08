@@ -9,7 +9,7 @@
 
 body {
   display: grid;
-  background-color: pink;
+  background-color: #f8eadd;
   color: snow;
   min-height: 100vh;
   overflow-x: hidden;
