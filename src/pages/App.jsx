@@ -1,15 +1,17 @@
+import { Suspense } from "react";
 import BarsChart from "../components/BarsChart";
 import TotalBalance from "../components/TotalBalance";
-
+import { useTranslation } from "react-i18next";
 export default function App() {
+  const { t, i18n } = useTranslation();
   return (
-    <>
+    <Suspense fallback={"..loading"}>
       <aside className="p-2">
         <TotalBalance />
       </aside>
       <article className="flex flex-col  bg-white rounded-xl p-8 gap-8">
         <h2 className="text-xl md:text-2xl text-stone-900 font-extrabold">
-          Gastos - Última semana
+          {t("main.title")}
         </h2>
         <BarsChart />
         <aside className="flex justify-between">
@@ -25,6 +27,6 @@ export default function App() {
           </div>
         </aside>
       </article>
-    </>
+    </Suspense>
   );
 }

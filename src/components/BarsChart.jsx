@@ -26,6 +26,7 @@ ChartJS.register(
 
 const beneficios = [200, 56, 20, 36, 90, 40, 30];
 const gastos = [0, -100, -5, -88, -10, -4, -200];
+
 const semana = [
   "Lunes",
   "Martes",
