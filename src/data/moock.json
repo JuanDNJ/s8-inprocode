@@ -1,0 +1,691 @@
+{
+    "months": {
+        "january": {
+            "weeks": [
+                {
+                    "week": 1,
+                    "days": [
+                        {
+                            "day": "Monday",
+                            "expense": 0
+                        },
+                        {
+                            "day": "Tuesday",
+                            "expense": 100
+                        },
+                        {
+                            "day": "Wednesday",
+                            "expense": 5
+                        },
+                        {
+                            "day": "Thursday",
+                            "expense": 88
+                        },
+                        {
+                            "day": "Friday",
+                            "expense": 10
+                        },
+                        {
+                            "day": "Saturday",
+                            "expense": 4
+                        },
+                        {
+                            "day": "Sunday",
+                            "expense": 200
+                        }
+                    ]
+                },
+                {
+                    "week": 2,
+                    "days": [
+                        {
+                            "day": "Monday",
+                            "expense": 500
+                        },
+                        {
+                            "day": "Tuesday",
+                            "expense": 256
+                        },
+                        {
+                            "day": "Wednesday",
+                            "expense": 5
+                        },
+                        {
+                            "day": "Thursday",
+                            "expense": 88
+                        },
+                        {
+                            "day": "Friday",
+                            "expense": 310
+                        },
+                        {
+                            "day": "Saturday",
+                            "expense": 154
+                        },
+                        {
+                            "day": "Sunday",
+                            "expense": 200
+                        }
+                    ]
+                },
+                {
+                    "week": 3,
+                    "days": [
+                        {
+                            "day": "Monday",
+                            "expense": 0
+                        },
+                        {
+                            "day": "Tuesday",
+                            "expense": -100
+                        },
+                        {
+                            "day": "Wednesday",
+                            "expense": -5
+                        },
+                        {
+                            "day": "Thursday",
+                            "expense": -88
+                        },
+                        {
+                            "day": "Friday",
+                            "expense": -10
+                        },
+                        {
+                            "day": "Saturday",
+                            "expense": -4
+                        },
+                        {
+                            "day": "Sunday",
+                            "expense": -200
+                        }
+                    ]
+                },
+                {
+                    "week": 4,
+                    "days": [
+                        {
+                            "day": "Monday",
+                            "expense": 0
+                        },
+                        {
+                            "day": "Tuesday",
+                            "expense": -100
+                        },
+                        {
+                            "day": "Wednesday",
+                            "expense": -5
+                        },
+                        {
+                            "day": "Thursday",
+                            "expense": -88
+                        },
+                        {
+                            "day": "Friday",
+                            "expense": -10
+                        },
+                        {
+                            "day": "Saturday",
+                            "expense": -4
+                        },
+                        {
+                            "day": "Sunday",
+                            "expense": -200
+                        }
+                    ]
+                }
+            ]
+        },
+        "february": {
+            "weeks": [
+                {
+                    "week": 1,
+                    "days": [
+                        {
+                            "day": "Monday",
+                            "expense": 115
+                        },
+                        {
+                            "day": "Tuesday",
+                            "expense": 3
+                        },
+                        {
+                            "day": "Wednesday",
+                            "expense": 589
+                        },
+                        {
+                            "day": "Thursday",
+                            "expense": 25
+                        },
+                        {
+                            "day": "Friday",
+                            "expense": 18
+                        },
+                        {
+                            "day": "Saturday",
+                            "expense": 66
+                        },
+                        {
+                            "day": "Sunday",
+                            "expense": 25
+                        }
+                    ]
+                },
+                {
+                    "week": 2,
+                    "days": [
+                        {
+                            "day": "Monday",
+                            "expense": 0
+                        },
+                        {
+                            "day": "Tuesday",
+                            "expense": -100
+                        },
+                        {
+                            "day": "Wednesday",
+                            "expense": -5
+                        },
+                        {
+                            "day": "Thursday",
+                            "expense": -88
+                        },
+                        {
+                            "day": "Friday",
+                            "expense": -10
+                        },
+                        {
+                            "day": "Saturday",
+                            "expense": -4
+                        },
+                        {
+                            "day": "Sunday",
+                            "expense": -200
+                        }
+                    ]
+                },
+                {
+                    "week": 3,
+                    "days": [
+                        {
+                            "day": "Monday",
+                            "expense": 0
+                        },
+                        {
+                            "day": "Tuesday",
+                            "expense": -100
+                        },
+                        {
+                            "day": "Wednesday",
+                            "expense": -5
+                        },
+                        {
+                            "day": "Thursday",
+                            "expense": -88
+                        },
+                        {
+                            "day": "Friday",
+                            "expense": -10
+                        },
+                        {
+                            "day": "Saturday",
+                            "expense": -4
+                        },
+                        {
+                            "day": "Sunday",
+                            "expense": -200
+                        }
+                    ]
+                },
+                {
+                    "week": 4,
+                    "days": [
+                        {
+                            "day": "Monday",
+                            "expense": 0
+                        },
+                        {
+                            "day": "Tuesday",
+                            "expense": -100
+                        },
+                        {
+                            "day": "Wednesday",
+                            "expense": -5
+                        },
+                        {
+                            "day": "Thursday",
+                            "expense": -88
+                        },
+                        {
+                            "day": "Friday",
+                            "expense": -10
+                        },
+                        {
+                            "day": "Saturday",
+                            "expense": -4
+                        },
+                        {
+                            "day": "Sunday",
+                            "expense": -200
+                        }
+                    ]
+                }
+            ]
+        },
+        "march": {
+            "weeks": [
+                {
+                    "week": 1,
+                    "days": [
+                        {
+                            "day": "Monday",
+                            "expense": 115
+                        },
+                        {
+                            "day": "Tuesday",
+                            "expense": 3
+                        },
+                        {
+                            "day": "Wednesday",
+                            "expense": 589
+                        },
+                        {
+                            "day": "Thursday",
+                            "expense": 25
+                        },
+                        {
+                            "day": "Friday",
+                            "expense": 18
+                        },
+                        {
+                            "day": "Saturday",
+                            "expense": 66
+                        },
+                        {
+                            "day": "Sunday",
+                            "expense": 25
+                        }
+                    ]
+                },
+                {
+                    "week": 2,
+                    "days": [
+                        {
+                            "day": "Monday",
+                            "expense": 0
+                        },
+                        {
+                            "day": "Tuesday",
+                            "expense": -100
+                        },
+                        {
+                            "day": "Wednesday",
+                            "expense": -5
+                        },
+                        {
+                            "day": "Thursday",
+                            "expense": -88
+                        },
+                        {
+                            "day": "Friday",
+                            "expense": -10
+                        },
+                        {
+                            "day": "Saturday",
+                            "expense": -4
+                        },
+                        {
+                            "day": "Sunday",
+                            "expense": -200
+                        }
+                    ]
+                },
+                {
+                    "week": 3,
+                    "days": [
+                        {
+                            "day": "Monday",
+                            "expense": 0
+                        },
+                        {
+                            "day": "Tuesday",
+                            "expense": -100
+                        },
+                        {
+                            "day": "Wednesday",
+                            "expense": -5
+                        },
+                        {
+                            "day": "Thursday",
+                            "expense": -88
+                        },
+                        {
+                            "day": "Friday",
+                            "expense": -10
+                        },
+                        {
+                            "day": "Saturday",
+                            "expense": -4
+                        },
+                        {
+                            "day": "Sunday",
+                            "expense": -200
+                        }
+                    ]
+                },
+                {
+                    "week": 4,
+                    "days": [
+                        {
+                            "day": "Monday",
+                            "expense": 0
+                        },
+                        {
+                            "day": "Tuesday",
+                            "expense": -100
+                        },
+                        {
+                            "day": "Wednesday",
+                            "expense": -5
+                        },
+                        {
+                            "day": "Thursday",
+                            "expense": -88
+                        },
+                        {
+                            "day": "Friday",
+                            "expense": -10
+                        },
+                        {
+                            "day": "Saturday",
+                            "expense": -4
+                        },
+                        {
+                            "day": "Sunday",
+                            "expense": -200
+                        }
+                    ]
+                }
+            ]
+        },
+        "april": {
+            "weeks": [
+                {
+                    "week": 1,
+                    "days": [
+                        {
+                            "day": "Monday",
+                            "expense": 115
+                        },
+                        {
+                            "day": "Tuesday",
+                            "expense": 3
+                        },
+                        {
+                            "day": "Wednesday",
+                            "expense": 589
+                        },
+                        {
+                            "day": "Thursday",
+                            "expense": 25
+                        },
+                        {
+                            "day": "Friday",
+                            "expense": 18
+                        },
+                        {
+                            "day": "Saturday",
+                            "expense": 66
+                        },
+                        {
+                            "day": "Sunday",
+                            "expense": 25
+                        }
+                    ]
+                },
+                {
+                    "week": 2,
+                    "days": [
+                        {
+                            "day": "Monday",
+                            "expense": 0
+                        },
+                        {
+                            "day": "Tuesday",
+                            "expense": -100
+                        },
+                        {
+                            "day": "Wednesday",
+                            "expense": -5
+                        },
+                        {
+                            "day": "Thursday",
+                            "expense": -88
+                        },
+                        {
+                            "day": "Friday",
+                            "expense": -10
+                        },
+                        {
+                            "day": "Saturday",
+                            "expense": -4
+                        },
+                        {
+                            "day": "Sunday",
+                            "expense": -200
+                        }
+                    ]
+                },
+                {
+                    "week": 3,
+                    "days": [
+                        {
+                            "day": "Monday",
+                            "expense": 0
+                        },
+                        {
+                            "day": "Tuesday",
+                            "expense": -100
+                        },
+                        {
+                            "day": "Wednesday",
+                            "expense": -5
+                        },
+                        {
+                            "day": "Thursday",
+                            "expense": -88
+                        },
+                        {
+                            "day": "Friday",
+                            "expense": -10
+                        },
+                        {
+                            "day": "Saturday",
+                            "expense": -4
+                        },
+                        {
+                            "day": "Sunday",
+                            "expense": -200
+                        }
+                    ]
+                },
+                {
+                    "week": 4,
+                    "days": [
+                        {
+                            "day": "Monday",
+                            "expense": 0
+                        },
+                        {
+                            "day": "Tuesday",
+                            "expense": -100
+                        },
+                        {
+                            "day": "Wednesday",
+                            "expense": -5
+                        },
+                        {
+                            "day": "Thursday",
+                            "expense": -88
+                        },
+                        {
+                            "day": "Friday",
+                            "expense": -10
+                        },
+                        {
+                            "day": "Saturday",
+                            "expense": -4
+                        },
+                        {
+                            "day": "Sunday",
+                            "expense": -200
+                        }
+                    ]
+                }
+            ]
+        },
+        "may": {
+            "weeks": [
+                {
+                    "week": 1,
+                    "days": [
+                        {
+                            "day": "Monday",
+                            "expense": 115
+                        },
+                        {
+                            "day": "Tuesday",
+                            "expense": 3
+                        },
+                        {
+                            "day": "Wednesday",
+                            "expense": 589
+                        },
+                        {
+                            "day": "Thursday",
+                            "expense": 25
+                        },
+                        {
+                            "day": "Friday",
+                            "expense": 18
+                        },
+                        {
+                            "day": "Saturday",
+                            "expense": 66
+                        },
+                        {
+                            "day": "Sunday",
+                            "expense": 25
+                        }
+                    ]
+                },
+                {
+                    "week": 2,
+                    "days": [
+                        {
+                            "day": "Monday",
+                            "expense": 0
+                        },
+                        {
+                            "day": "Tuesday",
+                            "expense": -100
+                        },
+                        {
+                            "day": "Wednesday",
+                            "expense": -5
+                        },
+                        {
+                            "day": "Thursday",
+                            "expense": -88
+                        },
+                        {
+                            "day": "Friday",
+                            "expense": -10
+                        },
+                        {
+                            "day": "Saturday",
+                            "expense": -4
+                        },
+                        {
+                            "day": "Sunday",
+                            "expense": -200
+                        }
+                    ]
+                },
+                {
+                    "week": 3,
+                    "days": [
+                        {
+                            "day": "Monday",
+                            "expense": 0
+                        },
+                        {
+                            "day": "Tuesday",
+                            "expense": -100
+                        },
+                        {
+                            "day": "Wednesday",
+                            "expense": -5
+                        },
+                        {
+                            "day": "Thursday",
+                            "expense": -88
+                        },
+                        {
+                            "day": "Friday",
+                            "expense": -10
+                        },
+                        {
+                            "day": "Saturday",
+                            "expense": -4
+                        },
+                        {
+                            "day": "Sunday",
+                            "expense": -200
+                        }
+                    ]
+                },
+                {
+                    "week": 4,
+                    "days": [
+                        {
+                            "day": "Monday",
+                            "expense": 0
+                        },
+                        {
+                            "day": "Tuesday",
+                            "expense": -100
+                        },
+                        {
+                            "day": "Wednesday",
+                            "expense": -5
+                        },
+                        {
+                            "day": "Thursday",
+                            "expense": -88
+                        },
+                        {
+                            "day": "Friday",
+                            "expense": -10
+                        },
+                        {
+                            "day": "Saturday",
+                            "expense": -4
+                        },
+                        {
+                            "day": "Sunday",
+                            "expense": -200
+                        }
+                    ]
+                }
+            ]
+        },
+        "june": {},
+        "july": {},
+        "august": {},
+        "september": {},
+        "october": {},
+        "november": {},
+        "december": {}
+    }
+}

@@ -5,13 +5,13 @@
         "totalBalance": "Balanç Total",
         "comparedToYesterday": "Respecte a ahir",
         "week": {
-            "Dilluns": "Dilluns",
-            "Dimarts": "Dimarts",
-            "Dimecres": "Dimecres",
-            "Dijous": "Dijous",
-            "Divendres": "Divendres",
-            "Dissabte": "Dissabte",
-            "Diumenge": "Diumenge"
+            "monday": "Dilluns",
+            "tuesday": "Dimarts",
+            "wednesday": "Dimecres",
+            "thursday": "Dijous",
+            "friday": "Divendres",
+            "saturday": "Dissabte",
+            "sunday": "Diumenge"
         }
     }
 }

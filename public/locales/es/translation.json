@@ -5,13 +5,13 @@
         "totalBalance": "Balance Total",
         "comparedToYesterday": "Respecto a ayer",
         "week": {
-            "Monday": "Lunes",
-            "Tuesday": "Martes",
-            "Wednesday": "Miércoles",
-            "Thursday": "Jueves",
-            "Friday": "Viernes",
-            "Saturday": "Sábado",
-            "Sunday":"Domingo"
+            "monday": "Lunes",
+            "tuesday": "Martes",
+            "wednesday": "Miércoles",
+            "thursday": "Jueves",
+            "friday": "Viernes",
+            "saturday": "Sábado",
+            "sunday":"Domingo"
         }
     }
 }

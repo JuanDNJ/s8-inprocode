@@ -26,27 +26,28 @@ ChartJS.register(
 // find a way to TODO
 
 export default function BarsChart() {
-  const beneficios = [200, 56, 20, 36, 90, 40, 30];
-  // const gastos = [0, -100, -5, -88, -10, -4, -200];
-
+  const gastos = [200, 56, 20, 36, 90, 40, 30];
+  const totalGastos = gastos.reduce((acc, next) => {
+    acc = acc + next;
+    return acc;
+  });
+  console.log(totalGastos);
   const { t } = useTranslation();
-  const week = t("main.week");
-  console.log(week);
   const semana = [
-    "Lunes",
-    "Martes",
-    "Miercoles",
-    "Jueves",
-    "Viernes",
-    "Sabado",
-    "Domingo",
+    t("main.week.monday"),
+    t("main.week.tuesday"),
+    t("main.week.wednesday"),
+    t("main.week.thursday"),
+    t("main.week.friday"),
+    t("main.week.saturday"),
+    t("main.week.sunday"),
   ];
   const data = {
     labels: semana,
     datasets: [
       {
-        label: "Beneficios",
-        data: beneficios,
+        label: "Gastos",
+        data: gastos,
         backgroundColor: "#0099",
         borderColor: "#333",
         borderWidth: 1,

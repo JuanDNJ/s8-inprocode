@@ -1,4 +1,5 @@
 import BarsChart from "../components/BarsChart";
+import SelectMonth from "../components/SelectMonth";
 import TotalBalance from "../components/TotalBalance";
 import { useTranslation } from "react-i18next";
 export default function App() {
@@ -6,6 +7,7 @@ export default function App() {
   return (
     <>
       <aside className="p-2">
+        <SelectMonth />
         <TotalBalance />
       </aside>
       <article className="flex flex-col  bg-white rounded-xl p-8 gap-8">
