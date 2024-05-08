@@ -1,5 +1,17 @@
 {
     "main":{
-        "title": "Expenses - Last week"
+        "title": "Expenses - Last week",
+        "todayExpenses": "Today's Expenses",
+        "totalBalance": "Total balance",
+        "comparedToYesterday": "Compared to yesterday",
+        "week": {
+            "Monday": "Monday",
+            "Tuesday": "Tuesday",
+            "Wednesday": "Wednesday",
+            "Thursday": "Thursday",
+            "Friday": "Friday",
+            "Saturday": "Saturday",
+            "Sunday":"Sunday"
+        }
     }
 }
