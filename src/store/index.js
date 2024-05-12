@@ -3,7 +3,8 @@ import { useSelector, useDispatch } from "react-redux";
 import { Provider } from "react-redux";
 
 import counterReducers from "./slices/counter";
-import balanceReducers from "./slices/balance";
+import balanceReducers from "./slices/balanceSlice";
+
 const store = configureStore({
   reducer: {
     counter: counterReducers,
