@@ -19,6 +19,7 @@ export default function TodayExpense() {
     console.log(getCurrentMounth(), getCurrentWeek(), getCurrentDay());
     getExpense(getCurrentMounth(), getCurrentWeek(), getCurrentDay());
   }, []);
+
   return (
     <aside className="flex justify-between">
       <div className="text-stone-900 flex flex-col">
