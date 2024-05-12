@@ -16,16 +16,14 @@ export default function App() {
     dispatch(getWeeksByIdMonth({ idBalance: 0, idMonth: countMonth }));
   }, [countMonth, dispatch]);
   return (
-    <>
+    <section className="flex flex-col gap-4">
       <Header />
       <Aside />
-      <article className="flex flex-col  bg-white rounded-xl p-8 gap-8">
-        <h2 className="text-xl md:text-2xl text-stone-900 font-extrabold">
-          {t("main.title")}
-        </h2>
-        <BarsChart />
-        <TodayExpense />
-      </article>
-    </>
+      <h2 className="text-xl md:text-2xl text-stone-900 font-extrabold p-4">
+        {t("main.title")}
+      </h2>
+      <BarsChart />
+      <TodayExpense />
+    </section>
   );
 }

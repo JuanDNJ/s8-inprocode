@@ -25,17 +25,21 @@ export default function Menu() {
   };
 
   return (
-    <nav className="flex  items-center justify-center gap-4 p-2  border-2  rounded-md bg-red-600">
-      <button onClick={handlerClickBack}>
-        <img src={arrowBack} alt="Arrow Back" />
-      </button>
-      <div className="flex flex-col items-center">
-        <span>Week</span>
-        <strong>{countWeek + 1}</strong>
+    <nav className="flex w-full items-center justify-center gap-1">
+      <div className="flex justify-center">
+        <button onClick={handlerClickBack}>
+          <img width={18} height={18} src={arrowBack} alt="Arrow Back" />
+        </button>
       </div>
-      <button onClick={handlerClickForward}>
-        <img src={arrowForward} alt="Arrow Back" />
-      </button>
+      <div className="flex-1 gap-2 flex justify-center">
+        <small>Week</small>
+        <small>{countWeek + 1}</small>
+      </div>
+      <div className="flex">
+        <button onClick={handlerClickForward}>
+          <img width={18} height={18} src={arrowForward} alt="Arrow Back" />
+        </button>
+      </div>
     </nav>
   );
 }

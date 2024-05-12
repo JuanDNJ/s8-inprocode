@@ -8,7 +8,7 @@ export default function ChangeLanguage() {
     i18n.changeLanguage(lang);
   };
   return (
-    <nav className="flex gap-2 p-4">
+    <nav className="flex gap-2">
       <button
         onClick={() => hanlderChangelanguage("en")}
         className="rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-300"

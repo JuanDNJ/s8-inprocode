@@ -1,6 +1,5 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
-import { URL_FIEREBASE_DATA_BASE } from "../../utils";
-import { URL_MOUTHS } from "../../config";
+import { URL_FIEREBASE_DATA_BASE, URL_MOUTHS } from "../../config";
 // import moock from "../../data/moock.json";
 
 export const getBalanceById = createAsyncThunk(

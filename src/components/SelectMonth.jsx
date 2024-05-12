@@ -17,14 +17,20 @@ export default function SelectMonth() {
   };
 
   return (
-    <nav className="flex items-center justify-center gap-4 p-2 bg-red-600 border-2 rounded-md">
-      <button onClick={handlerBack}>
-        <img src={arrowBack} alt="Arrow Back" />
-      </button>
-      {mounth && <strong>{mounth.name}</strong>}
-      <button onClick={handlerNext}>
-        <img src={arrowForward} alt="Arrow Back" />
-      </button>
+    <nav className="flex w-full items-center justify-center gap-1">
+      <div className="flex justify-center">
+        <button onClick={handlerBack}>
+          <img width={18} height={18} src={arrowBack} alt="Arrow Back" />
+        </button>
+      </div>
+      <div className="flex-1 flex justify-center">
+        <small className="text-center">{mounth.name}</small>
+      </div>
+      <div className="flex">
+        <button onClick={handlerNext}>
+          <img width={18} height={18} src={arrowForward} alt="Arrow Back" />
+        </button>
+      </div>
     </nav>
   );
 }
