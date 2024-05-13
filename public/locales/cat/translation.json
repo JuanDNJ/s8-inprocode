@@ -18,11 +18,28 @@
     "todayExpenses": "Despeses d'avui",
     "totalBalance": "Balanç Total",
     "comparedToYesterday": "Respecte a ahir",
-    "monday": "Dilluns",
-    "tuesday": "Dimarts",
-    "wednesday": "Dimecres",
-    "thursday": "Dijous",
-    "friday": "Divendres",
-    "saturday": "Dissabte",
-    "sunday": "Diumenge"
+    "week": "Setmana",
+    "days": {
+        "monday": "Dilluns",
+        "tuesday": "Dimarts",
+        "wednesday": "Dimecres",
+        "thursday": "Dijous",
+        "friday": "Divendres",
+        "saturday": "Dissabte",
+        "sunday": "Diumenge"
+    },
+    "months": {
+        "january": "Gener",
+        "february": "Febrer",
+        "march": "Març",
+        "april": "Abril",
+        "may": "Maig",
+        "june": "Juny",
+        "july": "Juliol",
+        "august": "Agost",
+        "september": "Setembre",
+        "october": "Octubre",
+        "november": "Novembre",
+        "december": "Desembre"
+    }
 }

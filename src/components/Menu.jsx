@@ -8,8 +8,10 @@ import {
   weekAmount,
   weekDiscount,
 } from "../store/slices/counter";
+import { useTranslation } from "react-i18next";
 
 export default function Menu() {
+  const { t } = useTranslation();
   const dispatch = useDispatch();
   const { countWeek } = useSelector((state) => state.counter);
   const { weeksCount } = useSelector((state) => state.balance);
@@ -31,9 +33,11 @@ export default function Menu() {
           <img width={18} height={18} src={arrowBack} alt="Arrow Back" />
         </button>
       </div>
-      <div className="flex-1 gap-2 flex justify-center">
-        <small>Week</small>
-        <small>{countWeek + 1}</small>
+      <div className="flex-1 gap-2 flex justify-center ">
+        <strong className="text-center text-blue-900 font-bold">
+          {t("week")}
+        </strong>
+        <strong>{countWeek + 1}</strong>
       </div>
       <div className="flex">
         <button onClick={handlerClickForward}>

@@ -12,37 +12,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 100
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 300
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 25
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 20
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 98
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
+                                    "name": " friday",
                                     "expense": 71
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
+                                    "name": "saturday",
                                     "expense": 5
                                 }
                             ]
@@ -52,38 +52,38 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
-                                    "expense": 457
+                                    "name": "sunday",
+                                    "expense": 589
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 59
+                                    "name": "monday",
+                                    "expense": 256
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
-                                    "expense": 24
+                                    "name": " tuesday",
+                                    "expense": 69
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
-                                    "expense": 31
+                                    "name": " wednesday",
+                                    "expense": 36
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
-                                    "expense": 5
+                                    "name": " thursday",
+                                    "expense": 78
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
-                                    "expense": 10
+                                    "name": " friday",
+                                    "expense": 33
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 12
+                                    "name": "saturday",
+                                    "expense": 45
                                 }
                             ]
                         },
@@ -92,38 +92,38 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
-                                    "expense": 897
+                                    "name": "sunday",
+                                    "expense": 25
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 5
+                                    "name": "monday",
+                                    "expense": 83
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
-                                    "expense": 78
+                                    "name": " tuesday",
+                                    "expense": 215
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
-                                    "expense": 56
+                                    "name": " wednesday",
+                                    "expense": 89
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
-                                    "expense": 21
+                                    "name": " thursday",
+                                    "expense": 78
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
-                                    "expense": 3
+                                    "name": " friday",
+                                    "expense": 99
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 45
+                                    "name": "saturday",
+                                    "expense": 245
                                 }
                             ]
                         },
@@ -132,58 +132,38 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
-                                    "expense": 6
+                                    "name": "sunday",
+                                    "expense": 12
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 23
+                                    "name": "monday",
+                                    "expense": 86
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
-                                    "expense": 215
+                                    "name": " tuesday",
+                                    "expense": 25
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
-                                    "expense": 8
+                                    "name": " wednesday",
+                                    "expense": 89
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
-                                    "expense": 4
-                                },
-                                {
-                                    "id": 6,
-                                    "name": "saturday",
+                                    "name": " thursday",
                                     "expense": 69
                                 },
                                 {
+                                    "id": 6,
+                                    "name": " friday",
+                                    "expense": 99
+                                },
+                                {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 12
-                                }
-                            ]
-                        },
-                        {
-                            "id": 5,
-                            "days": [
-                                {
-                                    "id": 1,
-                                    "name": "monday",
-                                    "expense": 5
-                                },
-                                {
-                                    "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 6
-                                },
-                                {
-                                    "id": 3,
-                                    "name": "wednesday",
-                                    "expense": 4
+                                    "name": "saturday",
+                                    "expense": 0
                                 }
                             ]
                         }
@@ -198,38 +178,38 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
-                                    "expense": 215
+                                    "name": "sunday",
+                                    "expense": 100
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 2
+                                    "name": "monday",
+                                    "expense": 300
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
-                                    "expense": 42
+                                    "name": " tuesday",
+                                    "expense": 25
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
-                                    "expense": 29
+                                    "name": " wednesday",
+                                    "expense": 20
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
-                                    "expense": 13
+                                    "name": " thursday",
+                                    "expense": 98
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
-                                    "expense": 4
+                                    "name": " friday",
+                                    "expense": 71
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 89
+                                    "name": "saturday",
+                                    "expense": 5
                                 }
                             ]
                         },
@@ -238,38 +218,38 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
-                                    "expense": 86
+                                    "name": "sunday",
+                                    "expense": 589
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 25
+                                    "name": "monday",
+                                    "expense": 256
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
-                                    "expense": 56
+                                    "name": " tuesday",
+                                    "expense": 69
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
-                                    "expense": 16
+                                    "name": " wednesday",
+                                    "expense": 36
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
-                                    "expense": 3
+                                    "name": " thursday",
+                                    "expense": 78
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
-                                    "expense": 68
+                                    "name": " friday",
+                                    "expense": 33
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 9
+                                    "name": "saturday",
+                                    "expense": 45
                                 }
                             ]
                         },
@@ -278,38 +258,38 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
-                                    "expense": 1
+                                    "name": "sunday",
+                                    "expense": 25
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 14
-                                },
-                                {
-                                    "id": 3,
-                                    "name": "wednesday",
+                                    "name": "monday",
                                     "expense": 83
                                 },
                                 {
+                                    "id": 3,
+                                    "name": " tuesday",
+                                    "expense": 215
+                                },
+                                {
                                     "id": 4,
-                                    "name": "thursday",
-                                    "expense": 7
+                                    "name": " wednesday",
+                                    "expense": 89
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
-                                    "expense": 12
+                                    "name": " thursday",
+                                    "expense": 78
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
-                                    "expense": 101
+                                    "name": " friday",
+                                    "expense": 99
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 128
+                                    "name": "saturday",
+                                    "expense": 245
                                 }
                             ]
                         },
@@ -318,38 +298,38 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
-                                    "expense": 23
+                                    "name": "sunday",
+                                    "expense": 12
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 7
+                                    "name": "monday",
+                                    "expense": 86
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
-                                    "expense": 90
+                                    "name": " tuesday",
+                                    "expense": 25
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
-                                    "expense": 134
+                                    "name": " wednesday",
+                                    "expense": 89
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
-                                    "expense": 27
+                                    "name": " thursday",
+                                    "expense": 69
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
-                                    "expense": 13
+                                    "name": " friday",
+                                    "expense": 99
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 78
+                                    "name": "saturday",
+                                    "expense": 0
                                 }
                             ]
                         }
@@ -364,38 +344,38 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
-                                    "expense": 5
+                                    "name": "sunday",
+                                    "expense": 100
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 67
+                                    "name": "monday",
+                                    "expense": 300
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
-                                    "expense": 215
+                                    "name": " tuesday",
+                                    "expense": 25
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
-                                    "expense": 4
+                                    "name": " wednesday",
+                                    "expense": 20
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
-                                    "expense": 12
+                                    "name": " thursday",
+                                    "expense": 98
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
-                                    "expense": 78
+                                    "name": " friday",
+                                    "expense": 71
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 0
+                                    "name": "saturday",
+                                    "expense": 5
                                 }
                             ]
                         },
@@ -404,38 +384,38 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
-                                    "expense": 1789
+                                    "name": "sunday",
+                                    "expense": 589
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 56
+                                    "name": "monday",
+                                    "expense": 256
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
-                                    "expense": 42
+                                    "name": " tuesday",
+                                    "expense": 69
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
-                                    "expense": 33
+                                    "name": " wednesday",
+                                    "expense": 36
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
-                                    "expense": 111
+                                    "name": " thursday",
+                                    "expense": 78
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
-                                    "expense": 34
+                                    "name": " friday",
+                                    "expense": 33
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 5
+                                    "name": "saturday",
+                                    "expense": 45
                                 }
                             ]
                         },
@@ -444,38 +424,38 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
-                                    "expense": 17
+                                    "name": "sunday",
+                                    "expense": 25
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 13
+                                    "name": "monday",
+                                    "expense": 83
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
-                                    "expense": 30
+                                    "name": " tuesday",
+                                    "expense": 215
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
-                                    "expense": 91
+                                    "name": " wednesday",
+                                    "expense": 89
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
-                                    "expense": 21
+                                    "name": " thursday",
+                                    "expense": 78
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
-                                    "expense": 9
+                                    "name": " friday",
+                                    "expense": 99
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 3
+                                    "name": "saturday",
+                                    "expense": 245
                                 }
                             ]
                         },
@@ -484,58 +464,38 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
-                                    "expense": 1
+                                    "name": "sunday",
+                                    "expense": 12
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 69
+                                    "name": "monday",
+                                    "expense": 86
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
-                                    "expense": 48
+                                    "name": " tuesday",
+                                    "expense": 25
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
-                                    "expense": 52
+                                    "name": " wednesday",
+                                    "expense": 89
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
-                                    "expense": 21
+                                    "name": " thursday",
+                                    "expense": 69
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
-                                    "expense": 56
+                                    "name": " friday",
+                                    "expense": 99
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 45
-                                }
-                            ]
-                        },
-                        {
-                            "id": 5,
-                            "days": [
-                                {
-                                    "id": 1,
-                                    "name": "monday",
-                                    "expense": 83
-                                },
-                                {
-                                    "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 5
-                                },
-                                {
-                                    "id": 3,
-                                    "name": "wednesday",
-                                    "expense": 62
+                                    "name": "saturday",
+                                    "expense": 0
                                 }
                             ]
                         }
@@ -550,38 +510,38 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
-                                    "expense": 96
+                                    "name": "sunday",
+                                    "expense": 100
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 57
+                                    "name": "monday",
+                                    "expense": 300
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
-                                    "expense": 16
+                                    "name": " tuesday",
+                                    "expense": 25
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
-                                    "expense": 215
+                                    "name": " wednesday",
+                                    "expense": 20
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
-                                    "expense": 13
+                                    "name": " thursday",
+                                    "expense": 98
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
-                                    "expense": 123
+                                    "name": " friday",
+                                    "expense": 71
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 233
+                                    "name": "saturday",
+                                    "expense": 5
                                 }
                             ]
                         },
@@ -590,38 +550,38 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
-                                    "expense": 5
+                                    "name": "sunday",
+                                    "expense": 589
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 74
+                                    "name": "monday",
+                                    "expense": 256
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
-                                    "expense": 56
+                                    "name": " tuesday",
+                                    "expense": 69
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
-                                    "expense": 200
+                                    "name": " wednesday",
+                                    "expense": 36
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
-                                    "expense": 206
+                                    "name": " thursday",
+                                    "expense": 78
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
-                                    "expense": 50
+                                    "name": " friday",
+                                    "expense": 33
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 6
+                                    "name": "saturday",
+                                    "expense": 45
                                 }
                             ]
                         },
@@ -630,38 +590,38 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
-                                    "expense": 112
+                                    "name": "sunday",
+                                    "expense": 25
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 5
+                                    "name": "monday",
+                                    "expense": 83
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
-                                    "expense": 48
+                                    "name": " tuesday",
+                                    "expense": 215
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
-                                    "expense": 85
+                                    "name": " wednesday",
+                                    "expense": 89
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
-                                    "expense": 21
+                                    "name": " thursday",
+                                    "expense": 78
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
-                                    "expense": 63
+                                    "name": " friday",
+                                    "expense": 99
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 26
+                                    "name": "saturday",
+                                    "expense": 245
                                 }
                             ]
                         },
@@ -670,38 +630,38 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
-                                    "expense": 6
+                                    "name": "sunday",
+                                    "expense": 12
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 5
+                                    "name": "monday",
+                                    "expense": 86
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
-                                    "expense": 48
+                                    "name": " tuesday",
+                                    "expense": 25
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
-                                    "expense": 41
+                                    "name": " wednesday",
+                                    "expense": 89
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
-                                    "expense": 38
+                                    "name": " thursday",
+                                    "expense": 69
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
-                                    "expense": 76
+                                    "name": " friday",
+                                    "expense": 99
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 88
+                                    "name": "saturday",
+                                    "expense": 0
                                 }
                             ]
                         }
@@ -716,38 +676,38 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
-                                    "expense": 96
+                                    "name": "sunday",
+                                    "expense": 100
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 125
+                                    "name": "monday",
+                                    "expense": 300
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
-                                    "expense": 16
+                                    "name": " tuesday",
+                                    "expense": 25
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 20
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
-                                    "expense": 13
+                                    "name": " thursday",
+                                    "expense": 98
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
-                                    "expense": 123
+                                    "name": " friday",
+                                    "expense": 71
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 233
+                                    "name": "saturday",
+                                    "expense": 5
                                 }
                             ]
                         },
@@ -756,38 +716,38 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
-                                    "expense": 57
+                                    "name": "sunday",
+                                    "expense": 589
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 74
+                                    "name": "monday",
+                                    "expense": 256
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
-                                    "expense": 56
+                                    "name": " tuesday",
+                                    "expense": 69
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
-                                    "expense": 314
+                                    "name": " wednesday",
+                                    "expense": 36
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
-                                    "expense": 119
+                                    "name": " thursday",
+                                    "expense": 78
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
-                                    "expense": 50
+                                    "name": " friday",
+                                    "expense": 33
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 8
+                                    "name": "saturday",
+                                    "expense": 45
                                 }
                             ]
                         },
@@ -796,38 +756,38 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
-                                    "expense": 9
+                                    "name": "sunday",
+                                    "expense": 25
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 5
+                                    "name": "monday",
+                                    "expense": 83
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
-                                    "expense": 48
+                                    "name": " tuesday",
+                                    "expense": 215
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
-                                    "expense": 41
+                                    "name": " wednesday",
+                                    "expense": 89
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
-                                    "expense": 65
+                                    "name": " thursday",
+                                    "expense": 78
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
-                                    "expense": 76
+                                    "name": " friday",
+                                    "expense": 99
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 97
+                                    "name": "saturday",
+                                    "expense": 245
                                 }
                             ]
                         },
@@ -836,38 +796,38 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
-                                    "expense": 501
+                                    "name": "sunday",
+                                    "expense": 12
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 5
+                                    "name": "monday",
+                                    "expense": 86
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
-                                    "expense": 48
+                                    "name": " tuesday",
+                                    "expense": 25
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
-                                    "expense": 13
+                                    "name": " wednesday",
+                                    "expense": 89
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
-                                    "expense": 10
+                                    "name": " thursday",
+                                    "expense": 69
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
-                                    "expense": 98
+                                    "name": " friday",
+                                    "expense": 99
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 45
+                                    "name": "saturday",
+                                    "expense": 0
                                 }
                             ]
                         }
@@ -882,37 +842,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
+                                    "name": " friday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -922,37 +882,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
+                                    "name": " friday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -962,37 +922,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
+                                    "name": " friday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -1002,37 +962,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
+                                    "name": " friday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -1048,37 +1008,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
+                                    "name": " friday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -1088,37 +1048,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
-                                    "expense": 50
+                                    "name": " friday",
+                                    "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -1128,37 +1088,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
+                                    "name": " friday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -1168,57 +1128,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
+                                    "name": " friday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 0
-                                }
-                            ]
-                        },
-                        {
-                            "id": 5,
-                            "days": [
-                                {
-                                    "id": 1,
-                                    "name": "monday",
-                                    "expense": 0
-                                },
-                                {
-                                    "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 0
-                                },
-                                {
-                                    "id": 3,
-                                    "name": "wednesday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -1234,37 +1174,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
+                                    "name": " friday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -1274,37 +1214,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
-                                    "expense": 50
+                                    "name": " friday",
+                                    "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -1314,37 +1254,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
+                                    "name": " friday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -1354,57 +1294,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
+                                    "name": " friday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 0
-                                }
-                            ]
-                        },
-                        {
-                            "id": 5,
-                            "days": [
-                                {
-                                    "id": 1,
-                                    "name": "monday",
-                                    "expense": 0
-                                },
-                                {
-                                    "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 0
-                                },
-                                {
-                                    "id": 3,
-                                    "name": "wednesday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -1420,37 +1340,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
+                                    "name": " friday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -1460,37 +1380,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
-                                    "expense": 50
+                                    "name": " friday",
+                                    "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -1500,37 +1420,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
+                                    "name": " friday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -1540,57 +1460,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
+                                    "name": " friday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 0
-                                }
-                            ]
-                        },
-                        {
-                            "id": 5,
-                            "days": [
-                                {
-                                    "id": 1,
-                                    "name": "monday",
-                                    "expense": 0
-                                },
-                                {
-                                    "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 0
-                                },
-                                {
-                                    "id": 3,
-                                    "name": "wednesday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -1606,37 +1506,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
+                                    "name": " friday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -1646,37 +1546,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
-                                    "expense": 50
+                                    "name": " friday",
+                                    "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -1686,37 +1586,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
+                                    "name": " friday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -1726,57 +1626,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
+                                    "name": " friday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 0
-                                }
-                            ]
-                        },
-                        {
-                            "id": 5,
-                            "days": [
-                                {
-                                    "id": 1,
-                                    "name": "monday",
-                                    "expense": 0
-                                },
-                                {
-                                    "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 0
-                                },
-                                {
-                                    "id": 3,
-                                    "name": "wednesday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -1792,37 +1672,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
+                                    "name": " friday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -1832,37 +1712,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
-                                    "expense": 50
+                                    "name": " friday",
+                                    "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -1872,37 +1752,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
+                                    "name": " friday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -1912,57 +1792,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
+                                    "name": " friday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 0
-                                }
-                            ]
-                        },
-                        {
-                            "id": 5,
-                            "days": [
-                                {
-                                    "id": 1,
-                                    "name": "monday",
-                                    "expense": 0
-                                },
-                                {
-                                    "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 0
-                                },
-                                {
-                                    "id": 3,
-                                    "name": "wednesday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -1978,37 +1838,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
+                                    "name": " friday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -2018,37 +1878,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
-                                    "expense": 50
+                                    "name": " friday",
+                                    "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -2058,37 +1918,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
+                                    "name": " friday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]
@@ -2098,57 +1958,37 @@
                             "days": [
                                 {
                                     "id": 1,
-                                    "name": "monday",
+                                    "name": "sunday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 2,
-                                    "name": "tuesday",
+                                    "name": "monday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 3,
-                                    "name": "wednesday",
+                                    "name": " tuesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 4,
-                                    "name": "thursday",
+                                    "name": " wednesday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 5,
-                                    "name": "friday",
+                                    "name": " thursday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 6,
-                                    "name": "saturday",
+                                    "name": " friday",
                                     "expense": 0
                                 },
                                 {
                                     "id": 7,
-                                    "name": "sunday",
-                                    "expense": 0
-                                }
-                            ]
-                        },
-                        {
-                            "id": 5,
-                            "days": [
-                                {
-                                    "id": 1,
-                                    "name": "monday",
-                                    "expense": 0
-                                },
-                                {
-                                    "id": 2,
-                                    "name": "tuesday",
-                                    "expense": 0
-                                },
-                                {
-                                    "id": 3,
-                                    "name": "wednesday",
+                                    "name": "saturday",
                                     "expense": 0
                                 }
                             ]

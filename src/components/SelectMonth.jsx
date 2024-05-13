@@ -3,7 +3,9 @@ import { getDispacth } from "../store";
 import { monthAmount, monthDiscount } from "../store/slices/counter";
 import arrowBack from "../assets/arrow_back.svg";
 import arrowForward from "../assets/arrow_forward.svg";
+import { useTranslation } from "react-i18next";
 export default function SelectMonth() {
+  const { t } = useTranslation();
   const dispatch = getDispacth();
   const { countMonth } = useSelector((state) => state.counter);
   const { mounth, mounthsCount } = useSelector((state) => state.balance);
@@ -24,7 +26,9 @@ export default function SelectMonth() {
         </button>
       </div>
       <div className="flex-1 flex justify-center">
-        <small className="text-center">{mounth.name}</small>
+        <strong className="text-center text-blue-900 font-bold">
+          {t(`months.${mounth.name}`)}
+        </strong>
       </div>
       <div className="flex">
         <button onClick={handlerNext}>

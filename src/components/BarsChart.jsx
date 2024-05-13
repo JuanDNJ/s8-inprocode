@@ -16,7 +16,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { useWeek } from "../hooks/week";
 import { setWeekCount } from "../store/slices/balanceSlice";
 
-// TODO: Refactorizar
 ChartJS.register(
   CategoryScale,
   LinearScale,
@@ -56,13 +55,13 @@ export default function BarsChart() {
       <Bar
         data={{
           labels: [
+            t("main.week.sunday"),
             t("main.week.monday"),
             t("main.week.tuesday"),
             t("main.week.wednesday"),
             t("main.week.thursday"),
             t("main.week.friday"),
             t("main.week.saturday"),
-            t("main.week.sunday"),
           ],
           datasets: [
             {

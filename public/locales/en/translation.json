@@ -1,5 +1,5 @@
 {
-    "main":{
+    "main": {
         "title": "Expenses - Last week",
         "todayExpenses": "Today's Expenses",
         "totalBalance": "Total balance",
@@ -11,7 +11,31 @@
             "thursday": "Thursday",
             "friday": "Friday",
             "saturday": "Saturday",
-            "sunday":"Sunday"
+            "sunday": "Sunday"
         }
+    },
+    "week": "Week",
+    "days": {
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday"
+    },
+    "months": {
+        "january": "January",
+        "february": "February",
+        "march": "March",
+        "april": "April",
+        "may": "May",
+        "june": "June",
+        "july": "July",
+        "august": "August",
+        "september": "September",
+        "october": "October",
+        "november": "November",
+        "december": "December"
     }
 }
