@@ -1,6 +1,7 @@
 import catPng from "./assets/cat.png";
 import esPng from "./assets/es.png";
 import enPng from "./assets/en.png";
+import { getCurrentDay, getCurrentMounth, getCurrentWeek } from "./utils";
 
 export const URL_FIEREBASE_DATA_BASE =
   "https://s8-inprocode-default-rtdb.europe-west1.firebasedatabase.app/balance";
@@ -24,3 +25,6 @@ export const flags = [
     img: catPng,
   },
 ];
+export const currentMonth = getCurrentMounth();
+export const currentWeek = getCurrentWeek();
+export const currentDay = getCurrentDay();

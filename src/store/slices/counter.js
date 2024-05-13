@@ -1,13 +1,14 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { currentDay, currentMonth, currentWeek } from "../../config";
 
 export const counter = createSlice({
   name: "counter",
   initialState: {
     count: 0,
     countYear: 0,
-    countMonth: 0,
-    countWeek: 0,
-    countDay: 0,
+    countMonth: currentMonth,
+    countWeek: currentWeek,
+    countDay: currentDay,
   },
   reducers: {
     discount: (state) => {

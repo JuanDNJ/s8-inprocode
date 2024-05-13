@@ -1,5 +1,11 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
-import { URL_FIEREBASE_DATA_BASE, URL_MOUTHS } from "../../config";
+import {
+  URL_FIEREBASE_DATA_BASE,
+  URL_MOUTHS,
+  currentDay,
+  currentMonth,
+  currentWeek,
+} from "../../config";
 // import moock from "../../data/moock.json";
 
 export const getBalanceById = createAsyncThunk(
@@ -42,42 +48,35 @@ export const getMounths = createAsyncThunk("getMounths", async (payload) => {
     console.error(error);
   }
 });
-
-// export const getDataByNameMonth = createAsyncThunk(
-//   "balance",
-//   async (payload) => {
-//     try {
-//       const requets = await fetch(
-//         `${URL_FIEREBASE_DATA_BASE}${payload.monthName}.json`
-//       );
-//       const results = await requets.json();
-//       console.log(results);
-//       return results;
-//     } catch (error) {
-//       console.error(error);
-//     }
-//   }
-// );
-// export const getCurrentMonth = createAsyncThunk(
-//   "monthBalance",
-//   async (payload) => {
-//     console.log(payload);
-//     const weekNumber = payload.week;
-//     const url = `${URL_FIEREBASE_DATA_BASE}months/${payload.month}/weeks/${weekNumber}.json`;
-//     const requets = await fetch(url);
-//     const results = await requets.json();
-//     // console.log(results);
-//     return results;
-//   }
-// );
-// export const getMonthByName = createAsyncThunk(
-//   "monthByName",
-//   async (payload) => {
-//     console.log(payload);
-//     const url = `${URL_FIEREBASE_DATA_BASE}months/${payload.name}.json`;
-//     const requets = await fetch(url);
-//     const results = await requets.json();
-//     // console.log(results);
-//     return results;
-//   }
-// );
+export const getCurrentExpense = createAsyncThunk(
+  "getCurrentExpense",
+  async () => {
+    try {
+      const request = await fetch(
+        `${URL_FIEREBASE_DATA_BASE}/0/months/${currentMonth}/weeks/${currentWeek}/days/${currentDay}.json`
+      );
+      const response = await request.json();
+      console.log(response);
+      return response;
+    } catch (error) {
+      console.error(error);
+    }
+  }
+);
+export const getYesterdayExpense = createAsyncThunk(
+  "getYesterdayExpense",
+  async () => {
+    try {
+      const yesterday = currentDay - 1;
+      const yesterdayExpense = yesterday === -1 ? 6 : yesterday;
+      const request = await fetch(
+        `${URL_FIEREBASE_DATA_BASE}/0/months/${currentMonth}/weeks/${currentWeek}/days/${yesterdayExpense}.json`
+      );
+      const response = await request.json();
+      console.log(response);
+      return response;
+    } catch (error) {
+      console.error(error);
+    }
+  }
+);

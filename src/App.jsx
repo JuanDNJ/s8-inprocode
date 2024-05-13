@@ -11,10 +11,12 @@ export default function App() {
   const { t } = useTranslation();
   const { countMonth } = useSelector((state) => state.counter);
   const dispatch = useDispatch();
+
   useEffect(() => {
     dispatch(getMounths({ idMounth: countMonth }));
     dispatch(getWeeksByIdMonth({ idBalance: 0, idMonth: countMonth }));
   }, [countMonth, dispatch]);
+
   return (
     <section className="md:w-[768px] m-auto p-2 flex flex-col gap-4">
       <Header />
