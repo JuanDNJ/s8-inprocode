@@ -67,10 +67,10 @@ export default function BarsChart() {
             {
               label: "Expense",
               data: week,
-              backgroundColor: "gray",
-              borderColor: theme.backgroundColorBars,
-              borderWidth: 1,
-              borderRadius: 5,
+              backgroundColor: theme.backgroundColorBars,
+              borderColor: theme.borderColorBars,
+              borderWidth: 5,
+              borderRadius: 10,
             },
           ],
         }}
