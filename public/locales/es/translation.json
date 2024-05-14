@@ -4,6 +4,7 @@
     "totalBalance": "Balance Total",
     "comparedToYesterday": "Respecto a ayer",
     "week": "Semana",
+    "typeOfCurrency": "€",
     "days": {
         "monday": "Lunes",
         "tuesday": "Martes",

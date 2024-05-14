@@ -27,7 +27,7 @@ export default function SelectMonth() {
       </div>
       <div className="flex-1 flex justify-center">
         <strong className="text-center text-blue-900 font-bold">
-          {t(`months.${mounth.name}`)}
+          {mounth.name && t(`months.${mounth.name}`)}
         </strong>
       </div>
       <div className="flex">

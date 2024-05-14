@@ -23,15 +23,16 @@ export default function TodayExpense() {
         <span className="text-md text-stone-500 font-bold">
           {t("todayExpenses")}
         </span>
-        <strong className="text-4xl font-extrabold">{currentExpense} €</strong>
+        <strong className="text-4xl font-extrabold">
+          {currentExpense}{" "}
+          <strong className="text-red-500">{t("typeOfCurrency")}</strong>
+        </strong>
       </div>
       <div className="text-stone-900 flex flex-col justify-end h-full">
         <strong className="flex w-full justify-end font-bold">
           +2,4% {yesterdayExpense}
         </strong>
-        <small className="text-md font-bold">
-          {t("main.comparedToYesterday")}
-        </small>
+        <small className="text-md font-bold">{t("comparedToYesterday")}</small>
       </div>
     </aside>
   );

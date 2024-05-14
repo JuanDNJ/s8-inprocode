@@ -4,6 +4,7 @@
     "totalBalance": "Balanç Total",
     "comparedToYesterday": "Respecte a ahir",
     "week": "Setmana",
+    "typeOfCurrency": "€",
     "days": {
         "monday": "Dilluns",
         "tuesday": "Dimarts",
