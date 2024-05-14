@@ -21,7 +21,7 @@ export default function TodayExpense() {
     <aside className="flex justify-between">
       <div className="text-stone-900 flex flex-col">
         <span className="text-md text-stone-500 font-bold">
-          {t("main.todayExpenses")}
+          {t("todayExpenses")}
         </span>
         <strong className="text-4xl font-extrabold">{currentExpense} €</strong>
       </div>

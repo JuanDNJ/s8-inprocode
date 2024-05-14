@@ -1,19 +1,4 @@
 {
-    "main": {
-        "title": "Despeses - Última setmana",
-        "todayExpenses": "Despeses d'avui",
-        "totalBalance": "Balanç Total",
-        "comparedToYesterday": "Respecte a ahir",
-        "week": {
-            "monday": "Dilluns",
-            "tuesday": "Dimarts",
-            "wednesday": "Dimecres",
-            "thursday": "Dijous",
-            "friday": "Divendres",
-            "saturday": "Dissabte",
-            "sunday": "Diumenge"
-        }
-    },
     "title": "Despeses - Última setmana",
     "todayExpenses": "Despeses d'avui",
     "totalBalance": "Balanç Total",

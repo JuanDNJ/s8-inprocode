@@ -55,13 +55,13 @@ export default function BarsChart() {
       <Bar
         data={{
           labels: [
-            t("main.week.sunday"),
-            t("main.week.monday"),
-            t("main.week.tuesday"),
-            t("main.week.wednesday"),
-            t("main.week.thursday"),
-            t("main.week.friday"),
-            t("main.week.saturday"),
+            t("days.sunday"),
+            t("days.monday"),
+            t("days.tuesday"),
+            t("days.wednesday"),
+            t("days.thursday"),
+            t("days.friday"),
+            t("days.saturday"),
           ],
           datasets: [
             {

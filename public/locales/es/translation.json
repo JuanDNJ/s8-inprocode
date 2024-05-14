@@ -1,19 +1,8 @@
 {
-    "main": {
-        "title": "Gastos - Última semana",
-        "todayExpenses": "Gastos de Hoy",
-        "totalBalance": "Balance Total",
-        "comparedToYesterday": "Respecto a ayer",
-        "week": {
-            "monday": "Lunes",
-            "tuesday": "Martes",
-            "wednesday": "Miércoles",
-            "thursday": "Jueves",
-            "friday": "Viernes",
-            "saturday": "Sábado",
-            "sunday": "Domingo"
-        }
-    },
+    "title": "Gastos - Última semana",
+    "todayExpenses": "Gastos de Hoy",
+    "totalBalance": "Balance Total",
+    "comparedToYesterday": "Respecto a ayer",
     "week": "Semana",
     "days": {
         "monday": "Lunes",
