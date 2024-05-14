@@ -1,14 +1,11 @@
 import { themes } from "../config";
-import { useTheme } from "../hooks/theme";
+
 import { getDispacth } from "../store";
 import { selectTheme } from "../store/slices/theme";
 
 export default function SelectTheme() {
-  const { changeTheme } = useTheme();
-
   const dispatch = getDispacth();
   const handlerTheme = (id) => {
-    changeTheme(id);
     dispatch(selectTheme({ id: id }));
   };
   return (

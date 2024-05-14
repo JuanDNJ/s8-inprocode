@@ -6,7 +6,6 @@ import {
   currentMonth,
   currentWeek,
 } from "../../config";
-// import moock from "../../data/moock.json";
 
 export const getBalanceById = createAsyncThunk(
   "getBalanceById",
@@ -73,7 +72,6 @@ export const getYesterdayExpense = createAsyncThunk(
         `${URL_FIEREBASE_DATA_BASE}/0/months/${currentMonth}/weeks/${currentWeek}/days/${yesterdayExpense}.json`
       );
       const response = await request.json();
-      console.log(response);
       return response;
     } catch (error) {
       console.error(error);
