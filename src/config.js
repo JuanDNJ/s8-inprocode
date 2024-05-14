@@ -28,3 +28,18 @@ export const flags = [
 export const currentMonth = getCurrentMounth();
 export const currentWeek = getCurrentWeek();
 export const currentDay = getCurrentDay();
+
+export const themes = [
+  {
+    name: "red",
+    backgroundColor: "bg-stone-50",
+  },
+  {
+    name: "yellow",
+    backgroundColor: "bg-yellow-500",
+  },
+  {
+    name: "pink",
+    backgroundColor: "bg-pink-500",
+  },
+];
