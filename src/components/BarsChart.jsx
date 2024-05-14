@@ -42,13 +42,11 @@ export default function BarsChart() {
         (acc, next) => [...acc, next.expense],
         []
       );
-
       updateWeek(reduce);
     }
   };
   useEffect(() => {
     createDataDays();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data, countWeek]);
   return (
     data && (
