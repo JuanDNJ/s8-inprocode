@@ -15,6 +15,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useWeek } from "../hooks/week";
 import { setWeekCount } from "../store/slices/balanceSlice";
+import { getSelector } from "../store";
 
 ChartJS.register(
   CategoryScale,
@@ -30,7 +31,8 @@ ChartJS.register(
 
 export default function BarsChart() {
   const { t } = useTranslation();
-  const { data } = useSelector((state) => state.balance);
+  const { data } = getSelector((state) => state.balance);
+  const { theme } = getSelector((state) => state.theme);
   const dispatch = useDispatch();
   const { countWeek } = useSelector((state) => state.counter);
   const { week, updateWeek } = useWeek();
@@ -65,8 +67,8 @@ export default function BarsChart() {
             {
               label: "Expense",
               data: week,
-              backgroundColor: "#0099",
-              borderColor: "#333",
+              backgroundColor: "gray",
+              borderColor: theme.backgroundColorBars,
               borderWidth: 1,
               borderRadius: 5,
             },

@@ -11,16 +11,19 @@ export const URL_MOUTHS =
   " https://s8-inprocode-default-rtdb.europe-west1.firebasedatabase.app/mounths";
 export const themes = [
   {
-    name: "red",
+    name: "Light",
     backgroundColor: "bg-stone-50",
+    backgroundColorbars: "gray",
   },
   {
-    name: "yellow",
-    backgroundColor: "bg-yellow-500",
+    name: "Dark",
+    backgroundColor: "bg-stone-800",
+    backgroundColorbars: "white",
   },
   {
-    name: "pink",
-    backgroundColor: "bg-pink-500",
+    name: "Blue",
+    backgroundColor: "bg-blue-500",
+    backgroundColorbars: "#333",
   },
 ];
 export const flags = [
