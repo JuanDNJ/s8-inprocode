@@ -30,6 +30,7 @@ export const getWeeksByIdMonth = createAsyncThunk(
       const url = `${URL_FIEREBASE_DATA_BASE}/${idBalance}/months/${idMonth}/weeks.json`;
       const requets = await fetch(url);
       const results = await requets.json();
+
       return results;
     } catch (error) {
       console.error(error);

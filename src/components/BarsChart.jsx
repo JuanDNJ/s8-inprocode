@@ -40,7 +40,7 @@ export default function BarsChart() {
   const createDataDays = () => {
     if (data.length > 0) {
       dispatch(setWeekCount(data.length));
-      const reduce = data[countWeek].days.reduce(
+      const reduce = data[countWeek - 1].days.reduce(
         (acc, next) => [...acc, next.expense],
         []
       );

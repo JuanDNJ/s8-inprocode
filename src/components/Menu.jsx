@@ -9,23 +9,27 @@ import {
   weekDiscount,
 } from "../store/slices/counter";
 import { useTranslation } from "react-i18next";
+import { useEffect } from "react";
 
 export default function Menu() {
   const { t } = useTranslation();
   const dispatch = useDispatch();
-  const { countWeek } = useSelector((state) => state.counter);
-  const { weeksCount } = useSelector((state) => state.balance);
+  const { countWeek, count } = useSelector((state) => state.counter);
+  const { data } = useSelector((state) => state.balance);
   const handlerClickBack = () => {
-    dispatch(discount());
-    if (countWeek === 0) return;
+    if (countWeek <= 1) return;
+
     dispatch(weekDiscount());
   };
   const handlerClickForward = () => {
-    dispatch(increase());
-    if (countWeek >= weeksCount) return;
+    if (countWeek >= data.length) return;
+
     dispatch(weekAmount());
   };
 
+  useEffect(() => {
+    console.log(data.length);
+  }, [data]);
   return (
     <nav className="flex w-full items-center justify-center gap-1">
       <div className="flex justify-center">
@@ -37,7 +41,7 @@ export default function Menu() {
         <strong className="text-center text-blue-900 font-bold">
           {t("week")}
         </strong>
-        <strong>{countWeek + 1}</strong>
+        <strong>{count}</strong>
       </div>
       <div className="flex">
         <button onClick={handlerClickForward}>

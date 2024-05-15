@@ -7,7 +7,7 @@ export const counter = createSlice({
     count: 0,
     countYear: 0,
     countMonth: currentMonth,
-    countWeek: currentWeek - 1,
+    countWeek: currentWeek + 1,
     countDay: currentDay,
   },
   reducers: {
@@ -18,10 +18,10 @@ export const counter = createSlice({
       state.count++;
     },
     weekAmount: (state) => {
-      state.countWeek++;
+      state.countWeek = state.countWeek + 1;
     },
     weekDiscount: (state) => {
-      state.countWeek--;
+      state.countWeek = state.countWeek - 1;
     },
     monthAmount: (state) => {
       state.countMonth = state.countMonth + 1;

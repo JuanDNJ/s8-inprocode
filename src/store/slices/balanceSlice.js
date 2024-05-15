@@ -12,7 +12,7 @@ export const balanceSlice = createSlice({
   },
   reducers: {
     setWeekCount: (state, action) => {
-      state.weeksCount = action.payload - 1;
+      state.weeksCount = action.payload;
     },
   },
   extraReducers: (builder) => {
