@@ -16,5 +16,7 @@ export const getCurrentWeek = () => {
   const firstDayWeek = firstDayMonth.getDay(); // 0 (Domingo) a 6 (Sábado)
   const currentDay = currentData.getDate();
   const weekNumber = Math.ceil((currentDay + firstDayWeek) / 7);
+
+
   return weekNumber;
 };

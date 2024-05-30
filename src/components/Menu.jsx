@@ -3,8 +3,8 @@ import arrowForward from "../assets/arrow_forward.svg";
 import { useDispatch, useSelector } from "react-redux";
 
 import {
-  discount,
-  increase,
+  // discount,
+  // increase,
   weekAmount,
   weekDiscount,
 } from "../store/slices/counter";

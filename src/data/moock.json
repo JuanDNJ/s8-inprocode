@@ -830,6 +830,46 @@
                                     "expense": 0
                                 }
                             ]
+                        },
+                        {
+                            "id": 4,
+                            "days": [
+                                {
+                                    "id": 1,
+                                    "name": "sunday",
+                                    "expense": 12
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "monday",
+                                    "expense": 86
+                                },
+                                {
+                                    "id": 3,
+                                    "name": " tuesday",
+                                    "expense": 25
+                                },
+                                {
+                                    "id": 4,
+                                    "name": " wednesday",
+                                    "expense": 89
+                                },
+                                {
+                                    "id": 5,
+                                    "name": " thursday",
+                                    "expense": 69
+                                },
+                                {
+                                    "id": 6,
+                                    "name": " friday",
+                                    "expense": 99
+                                },
+                                {
+                                    "id": 7,
+                                    "name": "saturday",
+                                    "expense": 0
+                                }
+                            ]
                         }
                     ]
                 },
