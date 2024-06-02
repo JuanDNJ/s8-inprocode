@@ -12,7 +12,6 @@ export const balanceSheetSlice = createSlice({
             week: getWeekOfMonth() - 1,
             day: getDayOfWeekNumberMondayFirst(),
         },
-        year: 2024,
         countWeek: getWeekOfMonth() - 1,
         countMonth: getCurrentMounth()
     },

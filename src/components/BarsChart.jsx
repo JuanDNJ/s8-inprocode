@@ -11,8 +11,9 @@ import {
   Filler,
 } from "chart.js";
 import { useTranslation } from "react-i18next";
-import { getSelector } from "../store";
+import { getDispacth, getSelector } from "../store";
 import { useEffect, useState } from "react";
+import { setTodayExpense, setWeekExpense } from "../store/slices/bills";
 
 ChartJS.register(
   CategoryScale,
@@ -26,15 +27,16 @@ ChartJS.register(
 );
 
 export default function BarsChart() {
-  const { countWeek, countMonth, year, bills } = getSelector(state => state.balance_sheets)
+  const { countWeek, countMonth, current_date, bills } = getSelector(state => state.balance_sheets)
 
+  const dispatch = getDispacth()
   const [gastos] = useState(bills)
   const [data, setData] = useState([])
 
   const { t } = useTranslation();
   const { theme } = getSelector((state) => state.theme);
 
-  const current_year = Object.values(gastos[year])
+  const current_year = Object.values(gastos[current_date.year])
 
   const month = current_year[countMonth]
   const week = month[countWeek];
@@ -43,9 +45,13 @@ export default function BarsChart() {
 
   useEffect(() => {
     const data = week.map(res => res.bill)
-    setData(data)
-  }, [gastos, countWeek, countMonth])
+    const dayExpense = Object.values(current_year[current_date.month][current_date.week])
 
+    setData(data)
+    dispatch(setWeekExpense(week))
+    dispatch(setTodayExpense(dayExpense[current_date.day].bill))
+
+  }, [gastos, countWeek, countMonth])
 
   return (
     <Bar

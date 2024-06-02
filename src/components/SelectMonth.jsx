@@ -1,9 +1,11 @@
 import arrowBack from "../assets/arrow_back.svg";
 import arrowForward from "../assets/arrow_forward.svg";
 import { useTranslation } from "react-i18next";
+
 import { useState } from "react";
 import { incrementMonth, decrementMonth } from "../store/slices/balance";
 import { getDispacth, getSelector } from "../store";
+
 
 export default function SelectMonth() {
   const { countMonth, bills } = getSelector(state => state.balance_sheets)
@@ -31,6 +33,7 @@ export default function SelectMonth() {
       <div className="flex-1 flex justify-center">
         <strong className="text-center text-blue-900 font-bold">
           {t(`months.${nameMonths[countMonth]}`)}
+
         </strong>
       </div>
       <div className="flex">

@@ -5,9 +5,9 @@ import { incrementWeek, decrementWeek } from "../store/slices/balance";
 import { getDispacth, getSelector } from "../store";
 
 export default function Menu() {
-  const { year, countMonth, countWeek, bills } = getSelector(state => state.balance_sheets)
+  const { current_date, countMonth, countWeek, bills } = getSelector(state => state.balance_sheets)
   const dispatch = getDispacth()
-  const current_year = Object.values(bills[year])
+  const current_year = Object.values(bills[current_date.year])
   const month = current_year[countMonth]
   const weeks = Object.keys(month)
   const { t } = useTranslation();

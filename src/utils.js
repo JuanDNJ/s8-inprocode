@@ -36,3 +36,10 @@ export function getDayOfWeekNumberMondayFirst() {
   const day = today.getDay();
   return day === 0 ? 7 : day;
 }
+
+export const calacualteExpenseWeek = (week) => {
+  return week.reduce((acc, next) => {
+    acc += next.bill
+    return acc
+  }, 0)
+}

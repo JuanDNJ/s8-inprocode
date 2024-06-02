@@ -4,7 +4,7 @@ import { getSelector } from "../store";
 export default function TodayExpense() {
   const { t } = useTranslation();
   const { theme } = getSelector((state) => state.theme);
-
+  const { todayExpense } = getSelector(state => state.expenses)
   return (
     <aside className="flex justify-between">
       <div className="text-stone-900 flex flex-col">
@@ -12,7 +12,7 @@ export default function TodayExpense() {
           {t("todayExpenses")}
         </span>
         <strong className={`text-4xl ${theme.textColorBars} font-extrabold`}>
-          0
+          {todayExpense}
           <strong className="text-red-500">{t("typeOfCurrency")}</strong>
         </strong>
       </div>
