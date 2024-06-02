@@ -10,5 +10,6 @@ const store = configureStore({
     balance_sheets: balanceSheetReducer
   },
 });
+
 export { Provider, useSelector as getSelector, useDispatch as getDispacth };
 export default store;

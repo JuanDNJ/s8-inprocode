@@ -46,6 +46,7 @@ export default function BarsChart() {
     setData(data)
   }, [gastos, countWeek, countMonth])
 
+
   return (
     <Bar
       data={{

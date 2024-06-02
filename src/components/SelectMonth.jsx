@@ -1,11 +1,9 @@
 import arrowBack from "../assets/arrow_back.svg";
 import arrowForward from "../assets/arrow_forward.svg";
 import { useTranslation } from "react-i18next";
-
 import { useState } from "react";
 import { incrementMonth, decrementMonth } from "../store/slices/balance";
 import { getDispacth, getSelector } from "../store";
-
 
 export default function SelectMonth() {
   const { countMonth, bills } = getSelector(state => state.balance_sheets)

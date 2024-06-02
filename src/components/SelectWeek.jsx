@@ -4,29 +4,22 @@ import { useTranslation } from "react-i18next";
 import { incrementWeek, decrementWeek } from "../store/slices/balance";
 import { getDispacth, getSelector } from "../store";
 
-
 export default function Menu() {
   const { year, countMonth, countWeek, bills } = getSelector(state => state.balance_sheets)
   const dispatch = getDispacth()
   const current_year = Object.values(bills[year])
   const month = current_year[countMonth]
   const weeks = Object.keys(month)
-
-
-
   const { t } = useTranslation();
 
   const handlerClickBack = () => {
     if (countWeek === 0) return
-
     dispatch(decrementWeek())
   };
   const handlerClickForward = () => {
     if (countWeek >= weeks.length - 1) return
-
     dispatch(incrementWeek())
   };
-
 
   return (
     <nav className="flex w-full items-center justify-center gap-1">

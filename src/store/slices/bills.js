@@ -1,6 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-
 export function billSlice() {
     return createSlice({
         name: "createSlice",
