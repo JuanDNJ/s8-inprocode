@@ -1,10 +1,8 @@
 import catPng from "./assets/cat.png";
 import esPng from "./assets/es.png";
 import enPng from "./assets/en.png";
-import { getCurrentDay, getCurrentMounth, getCurrentWeek } from "./utils";
-export const currentMonth = getCurrentMounth();
-export const currentWeek = getCurrentWeek();
-export const currentDay = getCurrentDay();
+
+
 
 export const themes = [
   {

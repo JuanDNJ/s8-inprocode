@@ -1,48 +1,36 @@
 import { createSlice } from "@reduxjs/toolkit";
-import {
-    currentDay,
-    currentMonth,
-    currentWeek,
-} from "../../config";
-import { getBalance } from "../thunks";
+import bills from "../../data/bills.json";
+import { getCurrentMounth, getDayOfWeekNumberMondayFirst, getWeekOfMonth } from "../../utils";
 
 export const balanceSheetSlice = createSlice({
     name: "balanceSheetSlice",
     initialState: {
-        is_loding: false,
-        error: false,
-        allBills: {},
+        bills,
         current_date: {
             year: 2024,
-            month: 5,
-            week: 0,
-            day: 1,
+            month: getCurrentMounth(),
+            week: getWeekOfMonth() - 1,
+            day: getDayOfWeekNumberMondayFirst(),
         },
-        currentDay,
-        currentMonth,
-        currentWeek,
-        data: []
+        year: 2024,
+        countWeek: getWeekOfMonth() - 1,
+        countMonth: getCurrentMounth()
     },
     reducers: {
-
+        incrementWeek: (state) => {
+            state.countWeek += 1
+        },
+        decrementWeek: (state) => {
+            state.countWeek -= 1
+        },
+        incrementMonth: (state) => {
+            state.countMonth += 1
+        },
+        decrementMonth: (state) => {
+            state.countMonth -= 1
+        }
     },
-    extraReducers: (builder) => {
-        builder.addCase(getBalance.pending, (state) => {
-            state.is_loding = true
-            state.error = false
-        })
-        builder.addCase(getBalance.fulfilled, (state, action) => {
-            state.is_loding = false
-            state.error = false
 
-            state.allBills = action.payload
-        })
-        builder.addCase(getBalance.rejected, (state) => {
-            state.is_loding = false
-            state.error = true
-        })
-    }
 })
-
-
+export const { incrementWeek, decrementWeek, incrementMonth, decrementMonth } = balanceSheetSlice.actions
 export default balanceSheetSlice.reducer;

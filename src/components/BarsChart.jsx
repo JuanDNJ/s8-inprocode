@@ -12,8 +12,7 @@ import {
 } from "chart.js";
 import { useTranslation } from "react-i18next";
 import { getSelector } from "../store";
-import bills from "../data/bills.json";
-
+import { useEffect, useState } from "react";
 
 ChartJS.register(
   CategoryScale,
@@ -25,32 +24,36 @@ ChartJS.register(
   Legend,
   Filler
 );
-// find a way to TODO
-
 
 export default function BarsChart() {
+  const { countWeek, countMonth, year, bills } = getSelector(state => state.balance_sheets)
 
-  const { current_date, allBills } = getSelector(state => state.balance_sheets)
+  const [gastos] = useState(bills)
+  const [data, setData] = useState([])
 
   const { t } = useTranslation();
-
   const { theme } = getSelector((state) => state.theme);
 
-  const current_year = bills[2024];
-  const month = current_year['may'];
+  const current_year = Object.values(gastos[year])
 
-  const nameDays = month[1].map(week => t(`days.${week.name.toLowerCase()}`))
-  const gastos = month[1].map(week => week.bill)
-  console.log(current_date)
+  const month = current_year[countMonth]
+  const week = month[countWeek];
+
+  const name_days = week.map(week => t(`days.${week.name.toLowerCase()}`))
+
+  useEffect(() => {
+    const data = week.map(res => res.bill)
+    setData(data)
+  }, [gastos, countWeek, countMonth])
 
   return (
     <Bar
       data={{
-        labels: nameDays,
+        labels: name_days,
         datasets: [
           {
             label: "Expense",
-            data: gastos,
+            data,
             backgroundColor: theme.backgroundColorBars,
             borderColor: theme.borderColorBars,
             borderWidth: 5,

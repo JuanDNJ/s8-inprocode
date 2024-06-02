@@ -4,17 +4,16 @@ import Header from "./components/Header";
 import TodayExpense from "./components/TodayExpense";
 import Aside from "./components/Aside";
 import SelectTheme from "./components/SelectTheme";
-import { getSelector, getDispacth } from "./store";
-import { getBalance } from "./store/thunks";
-import { useEffect } from "react";
+import { getSelector } from "./store";
+
 
 export default function App() {
   const { t } = useTranslation();
   const { theme } = getSelector((state) => state.theme);
-  const dispatch = getDispacth();
-  useEffect(() => {
-    dispatch(getBalance(2024))
-  }, [])
+
+
+
+
   return (
     <section className="md:w-[768px] m-auto mt-10 p-2 flex flex-col gap-8">
       <Header />
