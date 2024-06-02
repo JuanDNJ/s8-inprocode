@@ -1,5 +1,5 @@
-
 export const today = new Date();
+
 export const getCurrentMounth = () => {
   return new Date().getMonth();
 };
