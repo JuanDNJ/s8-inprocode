@@ -1,22 +1,9 @@
-import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
-
-import { useDispatch, useSelector } from "react-redux";
-import { getCurrentExpense, getYesterdayExpense } from "../store/thunks";
 import { getSelector } from "../store";
 
 export default function TodayExpense() {
   const { t } = useTranslation();
   const { theme } = getSelector((state) => state.theme);
-  const { currentExpense, yesterdayExpense } = useSelector(
-    (state) => state.expenses
-  );
-  const dispacth = useDispatch();
-
-  useEffect(() => {
-    dispacth(getCurrentExpense());
-    dispacth(getYesterdayExpense());
-  }, []);
 
   return (
     <aside className="flex justify-between">
@@ -25,7 +12,7 @@ export default function TodayExpense() {
           {t("todayExpenses")}
         </span>
         <strong className={`text-4xl ${theme.textColorBars} font-extrabold`}>
-          {currentExpense}{" "}
+          0
           <strong className="text-red-500">{t("typeOfCurrency")}</strong>
         </strong>
       </div>
@@ -33,7 +20,7 @@ export default function TodayExpense() {
         className={`${theme.textColorBars} flex flex-col justify-end h-full`}
       >
         <strong className="flex w-full justify-end font-bold">
-          +2,4% {yesterdayExpense}
+          +2,4%
         </strong>
         <small className="text-md font-bold">{t("comparedToYesterday")}</small>
       </div>

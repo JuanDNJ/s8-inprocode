@@ -1,21 +1,24 @@
-import { useSelector } from "react-redux";
-import { getDispacth } from "../store";
-import { monthAmount, monthDiscount } from "../store/slices/counter";
 import arrowBack from "../assets/arrow_back.svg";
 import arrowForward from "../assets/arrow_forward.svg";
 import { useTranslation } from "react-i18next";
+import bills from "../data/bills.json";
+import { useState } from "react";
+
+
 export default function SelectMonth() {
+  const current_year = bills[2024]
+  const [nameMonths] = useState(Object.keys(current_year))
+  const [count, setCount] = useState(5);
+
   const { t } = useTranslation();
-  const dispatch = getDispacth();
-  const { countMonth } = useSelector((state) => state.counter);
-  const { mounth, mounthsCount } = useSelector((state) => state.balance);
+
   const handlerBack = () => {
-    if (countMonth === 0) return;
-    dispatch(monthDiscount());
+    if (count === 0) return
+    setCount(prev => prev -= 1)
   };
   const handlerNext = () => {
-    if (countMonth >= mounthsCount) return;
-    dispatch(monthAmount());
+    if (count >= 11) return
+    setCount(prev => prev += 1)
   };
 
   return (
@@ -27,7 +30,8 @@ export default function SelectMonth() {
       </div>
       <div className="flex-1 flex justify-center">
         <strong className="text-center text-blue-900 font-bold">
-          {mounth.name && t(`months.${mounth.name}`)}
+          {t(`months.${nameMonths[count]}`)}
+
         </strong>
       </div>
       <div className="flex">

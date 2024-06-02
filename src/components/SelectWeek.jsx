@@ -1,35 +1,31 @@
 import arrowBack from "../assets/arrow_back.svg";
 import arrowForward from "../assets/arrow_forward.svg";
-import { useDispatch, useSelector } from "react-redux";
 
-import {
-  // discount,
-  // increase,
-  weekAmount,
-  weekDiscount,
-} from "../store/slices/counter";
 import { useTranslation } from "react-i18next";
-import { useEffect } from "react";
+
+import bills from "../data/bills.json";
+import { useState } from "react";
+
 
 export default function Menu() {
-  const { t } = useTranslation();
-  const dispatch = useDispatch();
-  const { countWeek, count } = useSelector((state) => state.counter);
-  const { data } = useSelector((state) => state.balance);
-  const handlerClickBack = () => {
-    if (countWeek <= 1) return;
 
-    dispatch(weekDiscount());
+  const current_year = bills[2024]
+  const month = current_year['june']
+  const weeks = Object.keys(month)
+  const [week, setWeek] = useState(0)
+
+  const { t } = useTranslation();
+
+  const handlerClickBack = () => {
+    if (week === 0) return
+    setWeek(prev => prev -= 1)
   };
   const handlerClickForward = () => {
-    if (countWeek >= data.length) return;
-
-    dispatch(weekAmount());
+    if (week >= weeks.length - 1) return
+    setWeek(prev => prev += 1)
   };
 
-  useEffect(() => {
-    console.log(data.length);
-  }, [data]);
+
   return (
     <nav className="flex w-full items-center justify-center gap-1">
       <div className="flex justify-center">
@@ -41,13 +37,14 @@ export default function Menu() {
         <strong className="text-center text-blue-900 font-bold">
           {t("week")}
         </strong>
-        <strong>{count}</strong>
+
       </div>
       <div className="flex">
         <button onClick={handlerClickForward}>
           <img width={18} height={18} src={arrowForward} alt="Arrow Back" />
         </button>
       </div>
+      <strong>{week + 1}</strong>
     </nav>
   );
 }

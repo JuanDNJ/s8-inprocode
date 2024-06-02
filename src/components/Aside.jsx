@@ -1,5 +1,5 @@
 import { getSelector } from "../store";
-import Menu from "./Menu";
+import SelectWeek from "./SelectWeek";
 import SelectMonth from "./SelectMonth";
 import TotalBalance from "./TotalBalance";
 
@@ -12,7 +12,7 @@ export default function Aside() {
       <TotalBalance />
       <article className="flex flex-1 items-end flex-col gap-4">
         <SelectMonth />
-        <Menu />
+        <SelectWeek />
       </article>
     </aside>
   );
