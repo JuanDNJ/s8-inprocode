@@ -982,143 +982,143 @@
                 {
                     "day": 4,
                     "name": "Tuesday",
-                    "bill": 90
+                    "bill": 0
                 },
                 {
                     "day": 5,
                     "name": "Wednesday",
-                    "bill": 12
+                    "bill": 0
                 },
                 {
                     "day": 6,
                     "name": "Thursday",
-                    "bill": 34
+                    "bill": 0
                 },
                 {
                     "day": 7,
                     "name": "Friday",
-                    "bill": 56
+                    "bill": 0
                 },
                 {
                     "day": 8,
                     "name": "Saturday",
-                    "bill": 78
+                    "bill": 0
                 },
                 {
                     "day": 9,
                     "name": "Sunday",
-                    "bill": 90
+                    "bill": 0
                 }
             ],
             [
                 {
                     "day": 10,
                     "name": "Monday",
-                    "bill": 23
+                    "bill": 0
                 },
                 {
                     "day": 11,
                     "name": "Tuesday",
-                    "bill": 45
+                    "bill": 0
                 },
                 {
                     "day": 12,
                     "name": "Wednesday",
-                    "bill": 67
+                    "bill": 0
                 },
                 {
                     "day": 13,
                     "name": "Thursday",
-                    "bill": 89
+                    "bill": 0
                 },
                 {
                     "day": 14,
                     "name": "Friday",
-                    "bill": 21
+                    "bill": 0
                 },
                 {
                     "day": 15,
                     "name": "Saturday",
-                    "bill": 34
+                    "bill": 0
                 },
                 {
                     "day": 16,
                     "name": "Sunday",
-                    "bill": 56
+                    "bill": 0
                 }
             ],
             [
                 {
                     "day": 17,
                     "name": "Monday",
-                    "bill": 78
+                    "bill": 0
                 },
                 {
                     "day": 18,
                     "name": "Tuesday",
-                    "bill": 90
+                    "bill": 0
                 },
                 {
                     "day": 19,
                     "name": "Wednesday",
-                    "bill": 12
+                    "bill": 0
                 },
                 {
                     "day": 20,
                     "name": "Thursday",
-                    "bill": 34
+                    "bill": 0
                 },
                 {
                     "day": 21,
                     "name": "Friday",
-                    "bill": 56
+                    "bill": 0
                 },
                 {
                     "day": 22,
                     "name": "Saturday",
-                    "bill": 78
+                    "bill": 0
                 },
                 {
                     "day": 23,
                     "name": "Sunday",
-                    "bill": 90
+                    "bill": 0
                 }
             ],
             [
                 {
                     "day": 24,
                     "name": "Monday",
-                    "bill": 23
+                    "bill": 0
                 },
                 {
                     "day": 25,
                     "name": "Tuesday",
-                    "bill": 45
+                    "bill": 0
                 },
                 {
                     "day": 26,
                     "name": "Wednesday",
-                    "bill": 67
+                    "bill": 0
                 },
                 {
                     "day": 27,
                     "name": "Thursday",
-                    "bill": 89
+                    "bill": 0
                 },
                 {
                     "day": 28,
                     "name": "Friday",
-                    "bill": 21
+                    "bill": 0
                 },
                 {
                     "day": 29,
                     "name": "Saturday",
-                    "bill": 34
+                    "bill": 0
                 },
                 {
                     "day": 30,
                     "name": "Sunday",
-                    "bill": 56
+                    "bill": 0
                 }
             ]
         ],
