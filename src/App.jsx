@@ -11,9 +11,6 @@ export default function App() {
   const { t } = useTranslation();
   const { theme } = getSelector((state) => state.theme);
 
-
-
-
   return (
     <section className="md:w-[768px] m-auto mt-10 p-2 flex flex-col gap-8">
       <Header />

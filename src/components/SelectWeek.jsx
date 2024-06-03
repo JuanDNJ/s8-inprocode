@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { incrementWeek, decrementWeek } from "../store/slices/balance";
 import { getDispacth, getSelector } from "../store";
 
-export default function Menu() {
+export default function SelectWeek() {
   const { current_date, countMonth, countWeek, bills } = getSelector(state => state.balance_sheets)
   const dispatch = getDispacth()
   const current_year = Object.values(bills[current_date.year])
