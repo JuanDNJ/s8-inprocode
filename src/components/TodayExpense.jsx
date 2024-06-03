@@ -4,7 +4,9 @@ import { getSelector } from "../store";
 export default function TodayExpense() {
   const { t } = useTranslation();
   const { theme } = getSelector((state) => state.theme);
-  const { todayExpense } = getSelector(state => state.expenses)
+  const { todayExpense, compareYesterday } = getSelector(
+    (state) => state.expenses
+  );
   return (
     <aside className="flex justify-between">
       <div className="text-stone-900 flex flex-col">
@@ -20,7 +22,7 @@ export default function TodayExpense() {
         className={`${theme.textColorBars} flex flex-col justify-end h-full`}
       >
         <strong className="flex w-full justify-end font-bold">
-          +2,4%
+          {compareYesterday}%
         </strong>
         <small className="text-md font-bold">{t("comparedToYesterday")}</small>
       </div>

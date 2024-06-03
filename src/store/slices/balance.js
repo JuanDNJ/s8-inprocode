@@ -27,7 +27,8 @@ export const balanceSheetSlice = createSlice({
         },
         decrementMonth: (state) => {
             state.countMonth -= 1
-        }
+        },
+
     },
 
 })

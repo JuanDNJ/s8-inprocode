@@ -6,7 +6,8 @@ export const billSlice = createSlice({
     name: "createSlice",
     initialState: {
         todayExpense: 25,
-        weekExpense: 1589
+        weekExpense: 1589,
+        compareYesterday: 0
     },
     reducers: {
         setTodayExpense: (state, action) => {
@@ -14,10 +15,13 @@ export const billSlice = createSlice({
         },
         setWeekExpense: (state, action) => {
             state.weekExpense = calacualteExpenseWeek(action.payload)
+        },
+        setCompareYesterday: (state, action) => {
+            state.compareYesterday = action.payload
         }
     }
 })
 
 
-export const { setTodayExpense, setWeekExpense } = billSlice.actions
+export const { setTodayExpense, setWeekExpense, setCompareYesterday } = billSlice.actions
 export default billSlice.reducer

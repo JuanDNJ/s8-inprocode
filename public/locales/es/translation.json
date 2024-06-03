@@ -5,6 +5,7 @@
     "comparedToYesterday": "Respecto a ayer",
     "week": "Semana",
     "typeOfCurrency": "€",
+    "expense": "Gastos",
     "selectTheme": "Seleccione el tema",
     "days": {
         "monday": "Lunes",
