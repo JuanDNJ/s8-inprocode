@@ -79,11 +79,11 @@ export default function BarsChart() {
         labels: name_days,
         datasets: [
           {
-            label: `${t("expense")}`,
+            label: `${t("week")} ${countWeek + 1}`,
             data,
             backgroundColor: theme.backgroundColorBars,
             borderColor: theme.borderColorBars,
-            borderWidth: 5,
+            borderWidth: 3,
             borderRadius: 10,
           },
         ],
