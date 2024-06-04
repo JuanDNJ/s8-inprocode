@@ -28,14 +28,15 @@ describe("Render Components", () => {
         expect(<App />).not.toBeNull();
     });
     it("Render Aside", () => {
-        expect(render(
+        const component = render(
             <Provider store={store}>
                 <Aside />
             </Provider>)
-        ).not.toBeNull();
+        expect(component).not.toBeNull();
     });
     it("Render Header", () => {
-        expect(render(<Header>adsadads</Header>)).not.toBeNull();
+        const component = render(<Header>Hola Mundo</Header>)
+        expect(component).not.toBeNull();
     });
 
     it("Render ChangeLanguage", () => {
@@ -56,31 +57,40 @@ describe("Render Components", () => {
         ).not.toBeNull();
     });
     it("Render SelectMonth", () => {
-        expect(render(
+        const component = render(
             <Provider store={store}>
                 <SelectMonth />
             </Provider>)
-        ).not.toBeNull();
+        expect(component).not.toBeNull();
+        expect(component.container).toHaveTextContent([''])
     });
     it("Render SelectTheme", () => {
-        expect(render(
+        const component = render(
             <Provider store={store}>
                 <SelectTheme />
             </Provider>)
-        ).not.toBeNull();
+        expect(component).not.toBeNull();
+        expect(component.container).toHaveTextContent("selectTheme")
     });
     it("Render TodayExpense", () => {
-        expect(render(
+        const component = render(
             <Provider store={store}>
                 <TodayExpense />
             </Provider>)
-        ).not.toBeNull();
+        expect(component).not.toBeNull();
+        expect(component.container).toHaveTextContent("todayExpenses")
+        expect(component.container).toHaveTextContent("typeOfCurrency")
+        expect(component.container).toHaveTextContent("%")
     });
     it("Render TotalBalance", () => {
-        expect(render(
+
+        const component = render(
             <Provider store={store}>
                 <TotalBalance />
-            </Provider>)
-        ).not.toBeNull();
+            </Provider>
+        )
+        expect(component).not.toBeNull();
+        expect(component.container).toHaveTextContent("totalBalance")
+        expect(component.container).toHaveTextContent("€")
     });
 });

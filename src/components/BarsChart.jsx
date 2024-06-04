@@ -67,7 +67,9 @@ export default function BarsChart() {
       setCompareYesterday(
         calculatePercentage(
           dayExpense[current_date.day].bill,
-          last_week[current_date.day === 0 ? 6 : current_date.day - 1].bill
+          current_date.day === 0 ?
+            last_week[6].bill
+            : dayExpense[current_date.day - 1].bill
         )
       )
     );
