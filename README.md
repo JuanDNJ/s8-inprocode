@@ -30,7 +30,7 @@ Implementa en Redux o Context la lògica per a servir les dades als diferents co
 
 - Les dades de la gràfica.
 
-[img](./public/Imatge1S8.jpg)
+![Imatge1S8](./public/Imatge1S8.jpg)
 
 ### Exercici 2
 
@@ -38,7 +38,7 @@ Mostra el balanç total de despeses de la setmana.
 
 Cada funcionalitat que realitzis, ha d'anar acompanyada del seu test en Jest.
 
-[img](./public/Imatge2S8react.png)
+![Imatge2S8react](./public/Imatge2S8react.png)
 
 ### Exercici 3
 
@@ -48,7 +48,7 @@ No és necessari fer la gràfica exactament com mostra el disseny, encara que s�
 
 Cada funcionalitat que facis, ha d'anar acompanyada del seu test en Jest.
 
-[img](./public/Imatge3S8React.png)
+![imatge3S8Reac](./public/Imatge3S8React.png)
 
 ### Exercici 4
 
