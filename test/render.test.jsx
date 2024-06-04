@@ -62,7 +62,7 @@ describe("Render Components", () => {
                 <SelectMonth />
             </Provider>)
         expect(component).not.toBeNull();
-        expect(component.container).toHaveTextContent([''])
+        expect(component.container).toHaveTextContent('months')
     });
     it("Render SelectTheme", () => {
         const component = render(
