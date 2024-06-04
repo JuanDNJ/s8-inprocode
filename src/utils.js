@@ -45,9 +45,11 @@ export const calacualteExpenseWeek = (week) => {
 }
 
 export const calculatePercentage = (current_day, yesterday) => {
-  console.log(yesterday, current_day)
-  const difference = Math.abs(current_day - yesterday);
+  const difference = Math.abs(yesterday - current_day);
   const give_me_average = (current_day + yesterday) / 2
-  // console.log(Math.floor((m / t) * 100))
-  return give_me_average ? Math.floor((difference / give_me_average) * 100) : 0
+
+  const minor = give_me_average ? `-` + Math.floor((difference / give_me_average) * 100) : 0;
+  const mayor = give_me_average ? Math.floor((difference / give_me_average) * 100) : 0;
+
+  return yesterday > current_day ? minor : mayor
 }

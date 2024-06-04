@@ -15,6 +15,7 @@ import { getDispacth, getSelector } from "../store";
 import { useEffect, useState } from "react";
 import {
   setCompareYesterday,
+  setParams,
   setTodayExpense,
   setWeekExpense,
 } from "../store/slices/bills";
@@ -63,12 +64,13 @@ export default function BarsChart() {
     setData(data);
     dispatch(setWeekExpense(week));
     dispatch(setTodayExpense(dayExpense[current_date.day].bill));
+    dispatch(setParams({ day_bill: 25, yesterday_bill: 125 }));
     dispatch(
       setCompareYesterday(
         calculatePercentage(
           dayExpense[current_date.day].bill,
-          current_date.day === 0 ?
-            last_week[6].bill
+          current_date.day === 0
+            ? last_week[6].bill
             : dayExpense[current_date.day - 1].bill
         )
       )

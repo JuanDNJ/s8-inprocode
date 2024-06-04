@@ -977,12 +977,12 @@
                 {
                     "day": 3,
                     "name": "Monday",
-                    "bill": 78
+                    "bill": 255
                 },
                 {
                     "day": 4,
                     "name": "Tuesday",
-                    "bill": 124
+                    "bill": 125
                 },
                 {
                     "day": 5,
