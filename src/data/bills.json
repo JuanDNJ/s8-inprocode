@@ -992,12 +992,12 @@
                 {
                     "day": 6,
                     "name": "Thursday",
-                    "bill": 0
+                    "bill": 34
                 },
                 {
                     "day": 7,
                     "name": "Friday",
-                    "bill": 0
+                    "bill":123
                 },
                 {
                     "day": 8,
