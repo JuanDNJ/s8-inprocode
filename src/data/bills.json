@@ -1002,12 +1002,12 @@
                 {
                     "day": 8,
                     "name": "Saturday",
-                    "bill": 0
+                    "bill": 56
                 },
                 {
                     "day": 9,
                     "name": "Sunday",
-                    "bill": 0
+                    "bill": 128
                 }
             ],
             [
